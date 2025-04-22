@@ -19,7 +19,19 @@ Este es un juego clásico del ahorcado hecho con **HTML**, **CSS** y **JavaScrip
 
 ## 📁 Estructura del proyecto
 
-ahorcado/ ├── index.html # Estructura principal del juego ├── style.css # Estilos visuales (fondo, colores, disposición) ├── script.js # Lógica del juego en JavaScript ├── img/ │ ├── parte0.png # Imagen del muñeco completo (último error) │ ├── parte1.png │ ├── parte2.png │ ├── parte3.png │ ├── parte4.png │ ├── parte5.png # Primer error visible │ └── parte6.png # Base visible desde el principio
+ahorcado/
+├── index.html         # Estructura principal del juego (HTML)
+├── style.css          # Estilos visuales: fondo, colores, disposición (CSS)
+├── script.js          # Lógica del juego: interacción, condiciones, eventos (JavaScript)
+├── img/               # Carpeta de imágenes del muñeco del ahorcado
+│   ├── parte6.png     # Base visible desde el principio
+│   ├── parte5.png     # Primer error visible
+│   ├── parte4.png
+│   ├── parte3.png
+│   ├── parte2.png
+│   ├── parte1.png
+│   └── parte0.png     # Imagen del muñeco completo (último error)
+
 
 yaml
 Copiar
